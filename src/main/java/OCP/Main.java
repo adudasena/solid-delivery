@@ -1,12 +1,16 @@
 package OCP;
 
 public class Main {
+
     // aceita qualquer FormaPagamento sem precisar de estruturas de if e else ou switch
     public static void realizarPagamento(FormaPagamento formaPagamento, double valor) {
         formaPagamento.processar(valor);
     }
 
     public static void main(String[] args) {
+
+        System.out.println("---Teste OCP---");
+
         double valorTotalPedido = 84.50;
 
         // Testando pagamento com PIX

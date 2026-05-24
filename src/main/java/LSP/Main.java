@@ -4,6 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("---Teste LSP---");
+
         List<Produto> cardapio = new ArrayList<>();
 
         // Adicionando as subclasses normalmente (Substituição de Liskov)

@@ -2,6 +2,9 @@ package ISP;
 
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("---Teste ISP---");
+
         // Cada classe executa apenas a sua responsabilidade e interface assinada
         GerenciadorPedidos cozinha = new AdministradorPedidos();
         cozinha.processarPedido();
